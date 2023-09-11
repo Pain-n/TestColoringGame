@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21375c73ef52b29489c4f713477ceafb, type: 3}
+  m_Name: SoundList
+  m_EditorClassIdentifier: 
+  SoundList:
+  - name: CorrectPaintSound
+    clip: {fileID: 8300000, guid: 9443a7f0ecd6c2946b7acf4f91c521c6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: WrongPaintSound
+    clip: {fileID: 8300000, guid: 160b58f656a38dd4db973595b4363ed5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
